@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		284DCFAE1F99257400AB0704 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284DCFAD1F99257400AB0704 /* AppDelegate.swift */; };
+		284DCFB01F99257400AB0704 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284DCFAF1F99257400AB0704 /* FirstViewController.swift */; };
+		284DCFB21F99257400AB0704 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284DCFB11F99257400AB0704 /* SecondViewController.swift */; };
+		284DCFB51F99257400AB0704 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 284DCFB31F99257400AB0704 /* Main.storyboard */; };
+		284DCFB71F99257400AB0704 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 284DCFB61F99257400AB0704 /* Assets.xcassets */; };
+		284DCFBA1F99257400AB0704 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 284DCFB81F99257400AB0704 /* LaunchScreen.storyboard */; };
+		284DCFC51F99257400AB0704 /* ReDoDayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284DCFC41F99257400AB0704 /* ReDoDayTests.swift */; };
+		284DCFD01F99257400AB0704 /* ReDoDayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284DCFCF1F99257400AB0704 /* ReDoDayUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		284DCFC11F99257400AB0704 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 284DCFA21F99257400AB0704 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 284DCFA91F99257400AB0704;
+			remoteInfo = ReDoDay;
+		};
+		284DCFCC1F99257400AB0704 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 284DCFA21F99257400AB0704 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 284DCFA91F99257400AB0704;
+			remoteInfo = ReDoDay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		284DCFAA1F99257400AB0704 /* ReDoDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReDoDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		284DCFAD1F99257400AB0704 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		284DCFAF1F99257400AB0704 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		284DCFB11F99257400AB0704 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		284DCFB41F99257400AB0704 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		284DCFB61F99257400AB0704 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		284DCFB91F99257400AB0704 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		284DCFBB1F99257400AB0704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		284DCFC01F99257400AB0704 /* ReDoDayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReDoDayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		284DCFC41F99257400AB0704 /* ReDoDayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReDoDayTests.swift; sourceTree = "<group>"; };
+		284DCFC61F99257400AB0704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		284DCFCB1F99257400AB0704 /* ReDoDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReDoDayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		284DCFCF1F99257400AB0704 /* ReDoDayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReDoDayUITests.swift; sourceTree = "<group>"; };
+		284DCFD11F99257400AB0704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		284DCFA71F99257400AB0704 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		284DCFBD1F99257400AB0704 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		284DCFC81F99257400AB0704 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		284DCFA11F99257400AB0704 = {
+			isa = PBXGroup;
+			children = (
+				284DCFAC1F99257400AB0704 /* ReDoDay */,
+				284DCFC31F99257400AB0704 /* ReDoDayTests */,
+				284DCFCE1F99257400AB0704 /* ReDoDayUITests */,
+				284DCFAB1F99257400AB0704 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		284DCFAB1F99257400AB0704 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				284DCFAA1F99257400AB0704 /* ReDoDay.app */,
+				284DCFC01F99257400AB0704 /* ReDoDayTests.xctest */,
+				284DCFCB1F99257400AB0704 /* ReDoDayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		284DCFAC1F99257400AB0704 /* ReDoDay */ = {
+			isa = PBXGroup;
+			children = (
+				284DCFAD1F99257400AB0704 /* AppDelegate.swift */,
+				284DCFAF1F99257400AB0704 /* FirstViewController.swift */,
+				284DCFB11F99257400AB0704 /* SecondViewController.swift */,
+				284DCFB31F99257400AB0704 /* Main.storyboard */,
+				284DCFB61F99257400AB0704 /* Assets.xcassets */,
+				284DCFB81F99257400AB0704 /* LaunchScreen.storyboard */,
+				284DCFBB1F99257400AB0704 /* Info.plist */,
+			);
+			path = ReDoDay;
+			sourceTree = "<group>";
+		};
+		284DCFC31F99257400AB0704 /* ReDoDayTests */ = {
+			isa = PBXGroup;
+			children = (
+				284DCFC41F99257400AB0704 /* ReDoDayTests.swift */,
+				284DCFC61F99257400AB0704 /* Info.plist */,
+			);
+			path = ReDoDayTests;
+			sourceTree = "<group>";
+		};
+		284DCFCE1F99257400AB0704 /* ReDoDayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				284DCFCF1F99257400AB0704 /* ReDoDayUITests.swift */,
+				284DCFD11F99257400AB0704 /* Info.plist */,
+			);
+			path = ReDoDayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		284DCFA91F99257400AB0704 /* ReDoDay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 284DCFD41F99257400AB0704 /* Build configuration list for PBXNativeTarget "ReDoDay" */;
+			buildPhases = (
+				284DCFA61F99257400AB0704 /* Sources */,
+				284DCFA71F99257400AB0704 /* Frameworks */,
+				284DCFA81F99257400AB0704 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReDoDay;
+			productName = ReDoDay;
+			productReference = 284DCFAA1F99257400AB0704 /* ReDoDay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		284DCFBF1F99257400AB0704 /* ReDoDayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 284DCFD71F99257400AB0704 /* Build configuration list for PBXNativeTarget "ReDoDayTests" */;
+			buildPhases = (
+				284DCFBC1F99257400AB0704 /* Sources */,
+				284DCFBD1F99257400AB0704 /* Frameworks */,
+				284DCFBE1F99257400AB0704 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				284DCFC21F99257400AB0704 /* PBXTargetDependency */,
+			);
+			name = ReDoDayTests;
+			productName = ReDoDayTests;
+			productReference = 284DCFC01F99257400AB0704 /* ReDoDayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		284DCFCA1F99257400AB0704 /* ReDoDayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 284DCFDA1F99257400AB0704 /* Build configuration list for PBXNativeTarget "ReDoDayUITests" */;
+			buildPhases = (
+				284DCFC71F99257400AB0704 /* Sources */,
+				284DCFC81F99257400AB0704 /* Frameworks */,
+				284DCFC91F99257400AB0704 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				284DCFCD1F99257400AB0704 /* PBXTargetDependency */,
+			);
+			name = ReDoDayUITests;
+			productName = ReDoDayUITests;
+			productReference = 284DCFCB1F99257400AB0704 /* ReDoDayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		284DCFA21F99257400AB0704 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Alex Sikora";
+				TargetAttributes = {
+					284DCFA91F99257400AB0704 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = HAEJGFX2Y3;
+						ProvisioningStyle = Automatic;
+					};
+					284DCFBF1F99257400AB0704 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = HAEJGFX2Y3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 284DCFA91F99257400AB0704;
+					};
+					284DCFCA1F99257400AB0704 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = HAEJGFX2Y3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 284DCFA91F99257400AB0704;
+					};
+				};
+			};
+			buildConfigurationList = 284DCFA51F99257400AB0704 /* Build configuration list for PBXProject "ReDoDay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 284DCFA11F99257400AB0704;
+			productRefGroup = 284DCFAB1F99257400AB0704 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				284DCFA91F99257400AB0704 /* ReDoDay */,
+				284DCFBF1F99257400AB0704 /* ReDoDayTests */,
+				284DCFCA1F99257400AB0704 /* ReDoDayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		284DCFA81F99257400AB0704 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				284DCFBA1F99257400AB0704 /* LaunchScreen.storyboard in Resources */,
+				284DCFB71F99257400AB0704 /* Assets.xcassets in Resources */,
+				284DCFB51F99257400AB0704 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		284DCFBE1F99257400AB0704 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		284DCFC91F99257400AB0704 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		284DCFA61F99257400AB0704 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				284DCFB21F99257400AB0704 /* SecondViewController.swift in Sources */,
+				284DCFAE1F99257400AB0704 /* AppDelegate.swift in Sources */,
+				284DCFB01F99257400AB0704 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		284DCFBC1F99257400AB0704 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				284DCFC51F99257400AB0704 /* ReDoDayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		284DCFC71F99257400AB0704 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				284DCFD01F99257400AB0704 /* ReDoDayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		284DCFC21F99257400AB0704 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 284DCFA91F99257400AB0704 /* ReDoDay */;
+			targetProxy = 284DCFC11F99257400AB0704 /* PBXContainerItemProxy */;
+		};
+		284DCFCD1F99257400AB0704 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 284DCFA91F99257400AB0704 /* ReDoDay */;
+			targetProxy = 284DCFCC1F99257400AB0704 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		284DCFB31F99257400AB0704 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				284DCFB41F99257400AB0704 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		284DCFB81F99257400AB0704 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				284DCFB91F99257400AB0704 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		284DCFD21F99257400AB0704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		284DCFD31F99257400AB0704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		284DCFD51F99257400AB0704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HAEJGFX2Y3;
+				INFOPLIST_FILE = ReDoDay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexsikora.ReDoDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		284DCFD61F99257400AB0704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HAEJGFX2Y3;
+				INFOPLIST_FILE = ReDoDay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexsikora.ReDoDay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		284DCFD81F99257400AB0704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HAEJGFX2Y3;
+				INFOPLIST_FILE = ReDoDayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexsikora.ReDoDayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReDoDay.app/ReDoDay";
+			};
+			name = Debug;
+		};
+		284DCFD91F99257400AB0704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HAEJGFX2Y3;
+				INFOPLIST_FILE = ReDoDayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexsikora.ReDoDayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReDoDay.app/ReDoDay";
+			};
+			name = Release;
+		};
+		284DCFDB1F99257400AB0704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = HAEJGFX2Y3;
+				INFOPLIST_FILE = ReDoDayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexsikora.ReDoDayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ReDoDay;
+			};
+			name = Debug;
+		};
+		284DCFDC1F99257400AB0704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = HAEJGFX2Y3;
+				INFOPLIST_FILE = ReDoDayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexsikora.ReDoDayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ReDoDay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		284DCFA51F99257400AB0704 /* Build configuration list for PBXProject "ReDoDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				284DCFD21F99257400AB0704 /* Debug */,
+				284DCFD31F99257400AB0704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		284DCFD41F99257400AB0704 /* Build configuration list for PBXNativeTarget "ReDoDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				284DCFD51F99257400AB0704 /* Debug */,
+				284DCFD61F99257400AB0704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		284DCFD71F99257400AB0704 /* Build configuration list for PBXNativeTarget "ReDoDayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				284DCFD81F99257400AB0704 /* Debug */,
+				284DCFD91F99257400AB0704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		284DCFDA1F99257400AB0704 /* Build configuration list for PBXNativeTarget "ReDoDayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				284DCFDB1F99257400AB0704 /* Debug */,
+				284DCFDC1F99257400AB0704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 284DCFA21F99257400AB0704 /* Project object */;
+}
